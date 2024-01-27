@@ -1,0 +1,133 @@
+html{
+    width: 100%;
+}
+body{
+    background-image: linear-gradient(#FC5E55 , #FA4083);
+    color: white;
+}
+
+.all{
+    width: 960px;
+    text-align: center;
+    margin: auto auto;
+    background-image:url(image-lion-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;        
+    padding: 0 0 20px 0;
+}
+
+.logo{
+    width: 50%;
+    
+    
+}
+.menu{
+    width: 50%;
+}
+
+.menuitem{
+    text-decoration: none;
+    color: white;
+    margin: 0 2% 0 2%;
+    height: 100px;
+    
+}
+
+.line{
+    width: 100%;
+    border-top: solid 1px white;
+
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 0 0 ;
+}
+
+
+.lefthero, .righthero{
+    width: 50%;
+    align-items: center;
+}
+
+.lefthero a{
+    text-decoration: none;
+    color: #FC5E55;
+    float: left;
+    background: white;
+    width: 100px;
+    padding: 10px 0 10px 0;
+    
+    
+
+}
+
+
+.middle{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 0 0;
+     align-items: center; 
+}
+
+.book{
+    background-image: url(image-background-card1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.service{
+    background-image: url(image-background-card2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.call{
+    background-image: url(image-background-card3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.book, .service , .call{
+    width: 33%;
+    height:  250px;
+    text-decoration: none;
+    color: white;
+}
+
+.middle img{
+    width:100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.middle p {
+    width: 90%;
+    margin: auto;
+}
+
+.txt{
+    height: 600px;
+    align-content: center;
+    padding-top: 40px;
+}
+.txtborder{
+    width: 45%;
+    border: groove  1px white;
+    float: left;
+    height: 200px;
+    margin: 20px;
+
+    
+}
